@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Authentication Based Rendering and Routing"
-date:       2020-04-02 08:12:22 +0000
+date:       2020-04-02 04:12:23 -0400
 permalink:  authentication_based_rendering_and_routing
 ---
 
@@ -74,8 +74,7 @@ export const ProtectedRoute = ({
                 pathname: "/",
                 state: {
                   from: props.location
-                }
-              }}
+                }}}
             />
           );
         }
