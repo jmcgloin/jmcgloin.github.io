@@ -70,11 +70,12 @@ export const ProtectedRoute = ({
         } else {
           return (
             <Redirect
-              to={{
-                pathname: "/",
-                state: {
-                  from: props.location
-                }}}
+              to={
+							    {
+                    pathname: "/",
+                    state: { from: props.location }
+							    }
+							}
             />
           );
         }
